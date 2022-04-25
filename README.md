@@ -15,9 +15,9 @@ O **MP plant** é um projeto desenvolvido como desafio promovido por estudantes 
 
 ## 👨‍💻 Tecnologias
 As tecnologias usadas nesse projeto foram:
-- [HTML]('https://developer.mozilla.org/en-US/docs/Web/HTML')
-- [CSS]('https://developer.mozilla.org/en-US/docs/Web/CSS')
-- [JS]('https://developer.mozilla.org/en-US/docs/Web/Javascript')
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JS](https://developer.mozilla.org/en-US/docs/Web/Javascript)
 
 ## 🖇 Executar o Projeto
 Para executar o projeto, siga dos seguintes passos:
