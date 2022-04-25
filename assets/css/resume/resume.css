@@ -1,0 +1,89 @@
+@media (min-width: 0) {
+  .resume {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 4rem;
+    margin: 5rem 0;
+    position: relative;
+  }
+
+  .resume-image {
+    width: 100%;
+    animation: move 10s infinite alternate;
+  }
+
+  .resume-content {
+    display: inherit;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .resume-title {
+    font-size: 2.4rem;
+  }
+
+  .resume-text {
+    line-height: 2;
+    font-size: 1.2rem;
+  }
+
+  .float-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 890px) {
+  .resume {
+    flex-wrap: nowrap;
+    margin: 15rem 0;
+  }
+
+  .resume-image {
+    width: 50rem;
+  }
+
+  .resume-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .resume-image {
+    width: 60rem;
+  }
+
+  .resume-content {
+    gap: 5rem;
+  }
+
+  .resume-title {
+    font-size: 5.2rem;
+  }
+
+  .resume-text {
+    font-size: 2rem;
+  }
+
+  .float-icon {
+    display: block;
+    background-color: rgba(93, 147, 113, 0.315);
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    position: absolute;
+    left: -300px;
+    top: 200px;
+    z-index: -1;
+  }
+}
+
+@keyframes move {
+  from {
+    transform: translate(0px, 0px);
+  }
+
+  to {
+    transform: translate(5px, 40px);
+  }
+}

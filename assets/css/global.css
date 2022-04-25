@@ -1,0 +1,86 @@
+@import url("../fonts/fonts.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --green: #5d9371;
+  --gray-dark: #2e282a;
+  --green-dark: #0d160b;
+  --yellow: #e3b505;
+  --yellow-light: #f7ffb4;
+  --red: #ea3546;
+  --white: #f9fbf2;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--green);
+  background-color: #f9f9f9;
+  font-size: 1.4rem;
+  color: var(--gray-dark);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+fieldset {
+  border: none;
+}
+
+.mark-text {
+  color: var(--yellow-light);
+  filter: drop-shadow(-10px -10px 15px var(--green));
+}
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--green);
+  border-radius: 5px;
+}
+
+@media (min-width: 0) {
+  section,
+  footer,
+  header {
+    padding: 2rem 3rem;
+  }
+}
+
+@media (min-width: 960px) {
+  section,
+  footer,
+  header {
+    padding: 4rem 7rem;
+  }
+}

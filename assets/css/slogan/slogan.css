@@ -1,0 +1,71 @@
+@media (min-width: 0) {
+  .slogan {
+    background: url("../../images/background.jpg") no-repeat center/cover fixed;
+    filter: drop-shadow(5px 5px 80px var(--yellow-light));
+  }
+
+  .slogan-navigation {
+    display: none;
+  }
+
+  .slogan-image {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .slogan {
+    background: url("../../images/background.jpg") no-repeat center/cover fixed;
+    filter: drop-shadow(5px 5px 80px var(--yellow-light));
+  }
+
+  .slogan-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .slogan-image {
+    display: block;
+    width: 100px;
+  }
+
+  .slogan-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .menu-item {
+    font-weight: 600;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+  .menu-item:last-child {
+    background-color: var(--gray-dark);
+    padding: 0.6rem 1.5rem;
+    border-radius: 5px;
+    color: var(--white);
+    transition: all 0.2s;
+  }
+
+  .menu-item:last-child:hover {
+    transform: scale(1.1);
+  }
+
+  .line {
+    width: 0;
+    background-color: var(--green-dark);
+    height: 3px;
+    border-radius: 5px;
+
+    transition: all 0.3s;
+  }
+
+  .menu-item:hover .line {
+    width: 100%;
+  }
+}
